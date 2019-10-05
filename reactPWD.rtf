@@ -1,0 +1,120 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\froman\fcharset0 Times-Roman;
+}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red0\green0\blue233;}
+{\*\expandedcolortbl;;\cssrgb\c19912\c19912\c19912;\cssrgb\c0\c0\c93333;}
+\margl1440\margr1440\vieww23240\viewh12640\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs48 \cf2 \ul \ulc2 Progressive Web App Boiler Plate Features List\ulnone \
+
+\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\b\fs36 \cf2 Purpose
+\f0\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs24 \cf2 \
+To create a business ready PWA based solution on ReactJS. This solution will be scalable and ready to build and enforce a team around.\
+Service workers actions should work with any framework and should not be dependent on React o any library (except for workbox, since that is the service worker library).
+\f1\b\fs36 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs24 \cf2 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs36 \cf2 Tech Stack
+\f0\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs24 \cf2 \
+React (lastest)\
+Redux (lasted)\
+React Router\
+Sass\
+Material UI\
+Express\
+Workbox (latest)\cf0 \
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\b\fs36 \cf2 Pre Loaded Features
+\f0\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs24 \cf2 \
+-Redux Store Management with Data from API calls.\
+-React Hooks and Context Examples for Behavior Management.\
+-NOTE: The idea here is to have data management be done using Redux and UI/UX behavior management done via Context\
+-The Introduction of page Templates and Layouts using React.Components.\
+-More granulate components will be used using stateless components as much as possible, leverage Hooks when necessary.\
+-Views = React.Components. Components = Static components using hooks\
+-Logic to be separated out as much as possible to mitigate the amount of code that is trapped in a single class for more reusability.\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\b\fs36 \cf2 Unit Testing
+\f0\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs24 \cf2 \
+-Behavior driven Pattern.\
+-All components actions reducers and helper/reusable files will have be fully tested\
+-Unit testing for service workers will also be added on.\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\b\fs36 \cf2 Service workers
+\f0\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs24 \cf2 \
+-I want to make all of the service process action based, similar to redux but in Naming convention only.\
+-An example will be proved with each Service action\
+-List of actions will start from here: {\field{\*\fldinst{HYPERLINK "https://serviceworke.rs/"}}{\fldrslt 
+\f2 \cf3 \expnd0\expndtw0\kerning0
+\ul \ulc3 https://serviceworke.rs}}\
+-Along with the app, there will be a full documented example for each action as to what it does and why.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf2 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\b\fs36 \cf2 UX Examples
+\f0\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs24 \cf2 \
+In reality, the main driver for single page applications is UX. Along with service worker actions that are responsible for the technical side fo things\
+UX driven actions are also necessary. These actions are independent and should be tied into redux. \
+\
+-Fetch New version on update\
+-Serve cached data based on request\
+-Push notifications\
+-Offline actions\
+-Queue actions to be executed when going from offline to online\
+-Acceptable offline experience\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf2 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\b\fs36 \cf2 Future Versions (all in separate branches)
+\f0\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs24 \cf2 \
+-TypeScript\
+-Static HTML version with Express\
+-Service Workers without wrokbox\cf2 \
+\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+}
